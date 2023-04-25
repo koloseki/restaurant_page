@@ -17,3 +17,4 @@ menu.addEventListener('click', generateMenu);
 contacts.addEventListener('click', generateContacts);
 
 generateMain();
+

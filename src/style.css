@@ -6,14 +6,20 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #f5bc27;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+    background: url("tamas-pap-XLmhRnV8yuc-unsplash.jpg");
+    background-size: cover;
+
 }
 
 
 header{
     display: flex;
+    justify-self: flex-start;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -37,15 +43,18 @@ header > button:hover{
 }
 
 #content {
-    background-color: #c5971b;
+    justify-items: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    gap: 1vh;
 }
 
 #content > *{
-    color: 	 black;
+    color: 	 white;
 }
 
 
